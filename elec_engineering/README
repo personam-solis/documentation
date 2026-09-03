@@ -2,9 +2,9 @@
 
 All Electrical Engineering documentation will be written in LaTEX.
 
-Only the '.tex' will be committed, any rendered documents are ignored
-to save space and to ensure only the most current rendered documents
-are obtained.
+Only the '.tex' and any resources will be committed, any rendered
+documents are ignored to save space and to ensure only the most
+current rendered documents are obtained.
 
 To turn .tex into PDF:
 pdflatex -output-directory=~/Documents/ ./*.tex

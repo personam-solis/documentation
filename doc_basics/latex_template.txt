@@ -1,0 +1,50 @@
+% DEFINE DOCUMENT PROPERTIES
+\documentclass[twocolumn]{article} % Set to two columns
+\title{\textbf{LaTeX Basics}}
+\author{personam-solis}
+\date{August 29, 2026}
+
+\usepackage[margin=0.75in]{geometry} % Set margin to 1 inch
+\usepackage{fancyhdr}   % Required for custom headers/footers
+\usepackage[T1]{fontenc} % Required to use emphasis and italic
+\usepackage{graphicx}   % Required for adding graphics
+\usepackage[labelfont=bf]{caption} % Make 'Figure N' bold
+\usepackage{cuted}   % Allows breaking columns mid-page
+\usepackage{caption} % Allows \captionof outside of a float environment
+
+\pagestyle{fancy}       % Turn on fancy style
+\fancyhf{}              % Clear default headers and footers
+
+% Set the header: Center = Document Name
+\fancyhead[C]{LaTeX Basics}
+
+% Set the footer: Left = Creator, Center = page number, Right = render date
+\fancyfoot[L]{\small Creator: personam-solis}
+\fancyfoot[C]{\textbf{\thepage}}   % Bold
+\fancyfoot[R]{\small Compiled on: \today} % Also Small Text
+
+
+% START ACTUAL DOCUMENT (With title)
+\begin{document}
+
+% Cancel two column to properly draw title and abstract
+\twocolumn[
+  \begin{@twocolumnfalse}
+    \maketitle % typeset the title (overrides style)
+    \begin{abstract}
+      % ABSTRACT HERE
+    \end{abstract}
+    \vspace{2em} % Adds space before the columns start
+  \end{@twocolumnfalse}
+]
+
+% Empty line after the abstract
+\vspace{\baselineskip}
+
+\begin{center}
+\textbf{1. INTRODUCTION}
+\end{center}
+
+% START HERE
+
+\end{document}

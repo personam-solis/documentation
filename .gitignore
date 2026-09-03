@@ -220,3 +220,7 @@ __marimo__/
 # LaTeX
 *.pdf
 .pdf
+*.log
+.log
+*.aux
+.aux
