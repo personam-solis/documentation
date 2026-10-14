@@ -208,6 +208,7 @@ Commands that are used to administrate a system. Probably needs Root
 | `lscpu` | Show CPU info including make/model/cores/speed |
 | `multipath -11` | List number of HBA LUN/Volume Connections |
 | `blkid` | Get the UUID of all block level devices including partitions |
+| `dd if=/dev/urandom of=<NAMEOFFILE> bs=1K count=50` | Create a 50K sized file by creating the file with 50 1K blocks |
 
 
 <br>
