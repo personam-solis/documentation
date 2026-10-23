@@ -757,7 +757,7 @@ A dataclass is a python class which helps reduce the number of "boiler plate" co
 * Immutability support: `@dataclass(frozen=True)`
 * Force ordered object so the ENTIRE object can be compared: `@dataclass(ordered=True)`
 * Utility methods: `__post_init__`
-* Better memory usafe by deleting instance dictionary and keep only attributes: `@dataclass(frozen=True, slots=True)`
+* Better memory usage by deleting instance dictionary and keep only attributes: `@dataclass(frozen=True, slots=True)`
 * Force using keywords when creating instance: `@dataclass(kw_only=True)`
 * Get a generated result that runs each time method is executed:
 ```python
